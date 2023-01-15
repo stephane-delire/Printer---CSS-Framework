@@ -4,9 +4,11 @@ body {
 
 page {
 	display: block;
+	box-sizing: border-box;
 	background-color: white;
 	overflow: hidden;
 	position: relative;
+	break-inside: avoid;
 }
 
 /*Paper size*/
@@ -28,6 +30,9 @@ page {
 }
 
 /*Margin*/
+.no-margin {
+	padding: 0mm;
+}
 .default-margin {
 	padding: 10mm;
 }
@@ -39,6 +44,9 @@ page {
 }
 
 /*Font size*/
+.fs-8 {
+	font-size: 8pt;
+}
 .fs-9 {
 	font-size: 9pt;
 }
@@ -57,6 +65,18 @@ page {
 .fs-14 {
 	font-size: 14pt;
 }
+.fs-15 {
+	font-size: 15pt;
+}
+.fs-16 {
+	font-size: 16pt;
+}
+.fs-17 {
+	font-size: 17pt;
+}
+.fs-18 {
+	font-size: 18pt;
+}
 
 /*Page numerotation*/
 num {
@@ -72,6 +92,7 @@ num {
 	page{
 		margin: 10px;
 		box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+		box-sizing: border-box;
 	}
 	body{
 		display: flex;

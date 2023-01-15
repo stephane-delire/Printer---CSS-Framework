@@ -33,6 +33,7 @@ Delire Stéphane
 	--lila: #c20a66;
 	
 	--black: #0d0d0d;
+	/*grey/light not working on printing*/
 	--grey: #808080;
 	--light: #cccccc;
 
@@ -92,6 +93,7 @@ page {
 /* Font properties */
 /*Font size*/
 /* Tag use*/
+fs-7 {font-size: 7pt;}
 fs-8 {font-size: 8pt;}
 fs-9 {font-size: 9pt;}
 fs-10 {font-size: 10pt;}
@@ -104,6 +106,7 @@ fs-16 {font-size: 16pt;}
 fs-17 {font-size: 17pt;}
 fs-18 {font-size: 18pt;}
 /* Class use */
+.fs-7 {font-size: 7pt;}
 .fs-8 {font-size: 8pt;}
 .fs-9 {font-size: 9pt;}
 .fs-10 {font-size: 10pt;}

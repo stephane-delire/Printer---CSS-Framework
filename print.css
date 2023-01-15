@@ -12,17 +12,21 @@ and deactivate header and footers which are by default.
 Delire Stéphane
 */
 
-
-body {
-	background-color: #CCC;
+/*------------------*/
+/* Global variable */
+:root {
+	--screen_bg_color: #CCC;
+	--page_bg_color: #FFF;
 }
+
+
 
 /*------------------*/
 /* Pages properties */
 page {
 	display: block;
 	box-sizing: border-box;
-	background-color: white;
+	background-color: var(--page_bg_color);
 	overflow: hidden;
 	position: relative;
 	break-inside: avoid;
@@ -63,39 +67,17 @@ page {
 /*------------------*/
 /* Font properties */
 /*Font size*/
-.fs-8 {
-	font-size: 8pt;
-}
-.fs-9 {
-	font-size: 9pt;
-}
-.fs-10 {
-	font-size: 10pt;
-}
-.fs-11 {
-	font-size: 11pt;
-}
-.fs-12 {
-	font-size: 12pt;
-}
-.fs-13 {
-	font-size: 13pt;
-}
-.fs-14 {
-	font-size: 14pt;
-}
-.fs-15 {
-	font-size: 15pt;
-}
-.fs-16 {
-	font-size: 16pt;
-}
-.fs-17 {
-	font-size: 17pt;
-}
-.fs-18 {
-	font-size: 18pt;
-}
+.fs-8 {font-size: 8pt;}
+.fs-9 {font-size: 9pt;}
+.fs-10 {font-size: 10pt;}
+.fs-11 {font-size: 11pt;}
+.fs-12 {font-size: 12pt;}
+.fs-13 {font-size: 13pt;}
+.fs-14 {font-size: 14pt;}
+.fs-15 {font-size: 15pt;}
+.fs-16 {font-size: 16pt;}
+.fs-17 {font-size: 17pt;}
+.fs-18 {font-size: 18pt;}
 
 /*Font color*/
 red {color: red;}
@@ -118,6 +100,7 @@ num {
 	right: 15mm;
 }
 
+body {background-color: var(--screen_bg_color);}
 
 /*--------------------------*/
 /*On screen representation*/

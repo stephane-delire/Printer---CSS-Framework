@@ -17,6 +17,25 @@ Delire Stéphane
 :root {
 	--screen_bg_color: #CCC;
 	--page_bg_color: #FFF;
+	
+	/*Colors*/
+	--red: #c20a0a;
+	--orange: #c2660a;
+	--yellow: #c2c20a;
+	--ocre: #66c20a;
+	--green: #0ac20a;
+	--aqua: #0ac266;
+	--sky: #0ac2c2;
+	--water: #0a66c2;
+	--blue: #0a0ac2;
+	--purple: #660ac2;
+	--pink: #c20ac2;
+	--lila: #c20a66;
+	
+	--black: #0d0d0d;
+	--grey: #808080;
+	--light: #cccccc;
+
 }
 
 

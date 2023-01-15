@@ -73,15 +73,19 @@ page {
 /*Margin*/
 .no-margin {
 	padding: 0mm;
+	--margin-offset: 0mm;
 }
 .default-margin {
 	padding: 10mm;
+	--margin-offset: 10mm;
 }
 .small-margin {
 	padding: 5mm;
+	--margin-offset: 5mm;
 }
 .big-margin {
 	padding: 20mm;
+	--margin-offset: 20mm;
 }
 
 /*------------------*/
@@ -99,7 +103,8 @@ page {
 .fs-17 {font-size: 17pt;}
 .fs-18 {font-size: 18pt;}
 
-/*Font color*/
+/* Font color */
+/* Tag use */
 red {color: var(--red)}
 orange {color: var(--orange)}
 yellow {color: var(--yellow)}
@@ -115,20 +120,54 @@ lila {color: var(--lila)}
 black {color: var(--black)}
 grey {color: var(--grey)}
 light {color: var(--light)}
+/* class use */
+.red {color: var(--red)}
+.orange {color: var(--orange)}
+.yellow {color: var(--yellow)}
+.ocre {color: var(--ocre)}
+.green {color: var(--green)}
+.aqua {color: var(--aqua)}
+.sky {color: var(--sky)}
+.water {color: var(--water)}
+.blue {color: var(--blue)}
+.purple {color: var(--purple)}
+.pink {color: var(--pink)}
+.lila {color: var(--lila)}
+.black {color: var(--black)}
+.grey {color: var(--grey)}
+.light {color: var(--light)}
 
 
 
 
-
-
-/*TODO -Header/footer */
-/*Page numerotation*/
-num {
+/*------------------*/
+/* Page footer*/
+page-footer {
 	position: absolute;
-	bottom: 10mm;
-	right: 15mm;
+	bottom: var(--margin-offset);
+	left: var(--margin-offset);
+	width: calc(100% - calc(var(--margin-offset))*2);
 }
 
+page-footer.center {text-align: center;}
+page-footer.right {text-align: right;}
+
+/* Page header */
+page-header {
+	position: absolute;
+	top: var(--margin-offset);
+	left: var(--margin-offset);
+	width: calc(100% - calc(var(--margin-offset))*2);
+}
+page-header.center {text-align: center;}
+page-header.right {text-align: right;}
+
+
+
+
+
+
+/* Else */
 body {background-color: var(--screen_bg_color);}
 
 /*--------------------------*/

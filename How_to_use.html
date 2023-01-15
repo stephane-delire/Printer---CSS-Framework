@@ -9,6 +9,9 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<!-- Custom icon from google-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
 
 
 	<!-- Use this .css -->
@@ -17,6 +20,63 @@
 
 </head>
 <body style="font-family: 'Open Sans', sans-serif;">
+
+
+<!-- Create the first page with A4 format and default margin -->
+<page class="A4 default-margin">
+
+
+<!-- Start writing -->
+<h1>Hello!</h1>
+
+<p style="text-align: center;">
+	Thank you for downloading this mini framework that simplifies HTML printing!<br>
+	Here is a small example on how to use it. 
+	<span class="material-symbols-outlined" style="transform: translateY(3px);">
+		sentiment_satisfied
+	</span>
+</p>
+
+
+<h2>Page setup</h2>
+<p>
+	The first thing to use in your HTML is <lila>&lt;page&gt;&lt;/page&gt;</lila> tags. These tags take in values of <ocre>"class"</ocre> attributes the format of the page as well as a margin.<br>
+	For example if I want a page in A4 format and a default margin of 10mm :
+</p>
+<p style="text-align: center;">
+	<lila>&lt;page <ocre>class</ocre> ="<aqua>A4 default-margin</aqua>"&gt;</lila>
+	<lila>&lt;/page&gt;</lila>
+</p>
+<p>
+	For the moment, it is only available pages from A3 to A6 format.<br>
+	And concerning the margins you have the choice between 
+	<aqua>"no-margin"</aqua>(<purple>0mm</purple>), 
+	<aqua>"small-margin"</aqua>(<purple>5mm</purple>), 
+	<aqua>"default-margin"</aqua>(<purple>10mm</purple>)
+	and 
+	<aqua>"big-margin"</aqua>(<purple>20mm</purple>)
+	.
+</p>
+
+
+<h2>Start writing!</h2>
+<p>
+	Well, it's not more complicated than that.
+	However, you have a few other tools to make your writing a little easier.
+</p>
+
+
+<h3>Colors</h3>
+<p>
+	A few colors have been added as separate tags to simplify document writing.
+</p>
+
+
+
+
+<!--End of page-->
+</page>
+
 
 </body>
 </html>

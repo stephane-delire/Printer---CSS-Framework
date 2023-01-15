@@ -91,6 +91,19 @@ page {
 /*------------------*/
 /* Font properties */
 /*Font size*/
+/* Tag use*/
+fs-8 {font-size: 8pt;}
+fs-9 {font-size: 9pt;}
+fs-10 {font-size: 10pt;}
+fs-11 {font-size: 11pt;}
+fs-12 {font-size: 12pt;}
+fs-13 {font-size: 13pt;}
+fs-14 {font-size: 14pt;}
+fs-15 {font-size: 15pt;}
+fs-16 {font-size: 16pt;}
+fs-17 {font-size: 17pt;}
+fs-18 {font-size: 18pt;}
+/* Class use */
 .fs-8 {font-size: 8pt;}
 .fs-9 {font-size: 9pt;}
 .fs-10 {font-size: 10pt;}
@@ -102,7 +115,6 @@ page {
 .fs-16 {font-size: 16pt;}
 .fs-17 {font-size: 17pt;}
 .fs-18 {font-size: 18pt;}
-
 /* Font color */
 /* Tag use */
 red {color: var(--red)}

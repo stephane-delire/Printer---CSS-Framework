@@ -49,6 +49,7 @@ page {
 	overflow: hidden;
 	position: relative;
 	break-inside: avoid;
+	color: var(--black);
 }
 
 /*Paper size*/
@@ -99,13 +100,22 @@ page {
 .fs-18 {font-size: 18pt;}
 
 /*Font color*/
-red {color: red;}
-blue {color: blue;}
-green {color: green;}
-orange {color: orange;}
-purple {color: purple;}
-yellow {color: yellow;}
-grey {color: grey;}
+red {color: var(--red)}
+orange {color: var(--orange)}
+yellow {color: var(--yellow)}
+ocre {color: var(--ocre)}
+green {color: var(--green)}
+aqua {color: var(--aqua)}
+sky {color: var(--sky)}
+water {color: var(--water)}
+blue {color: var(--blue)}
+purple {color: var(--purple)}
+pink {color: var(--pink)}
+lila {color: var(--lila)}
+black {color: var(--black)}
+grey {color: var(--grey)}
+light {color: var(--light)}
+
 
 
 

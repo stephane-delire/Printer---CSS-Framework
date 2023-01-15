@@ -97,6 +97,19 @@ page {
 	font-size: 18pt;
 }
 
+/*Font color*/
+red {color: red;}
+blue {color: blue;}
+green {color: green;}
+orange {color: orange;}
+purple {color: purple;}
+yellow {color: yellow;}
+grey {color: grey;}
+
+
+
+
+
 /*TODO -Header/footer */
 /*Page numerotation*/
 num {
